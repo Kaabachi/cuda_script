@@ -15,21 +15,7 @@ This script allows you to check the availability of CUDA, the number of availabl
 2. Run the script with desired options:
 
     ```bash
-    python gpu_test.py [options]
-    ```
-
-### Running in Docker
-
-1. Build the Docker image:
-
-    ```bash
-    docker build -t gpu_test .
-    ```
-
-2. Run the Docker container with desired options:
-
-    ```bash
-    docker run gpu_test [options]
+    python gpu_script.py [options]
     ```
 
 ## Options
@@ -72,4 +58,4 @@ This script allows you to check the availability of CUDA, the number of availabl
     python gpu_script.py --test stress-test --tensor_size 5000
     ```
 
-Feel free to modify the script or Dockerfile according to your needs.
+
